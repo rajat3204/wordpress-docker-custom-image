@@ -1,2 +1,5 @@
 Please Go through this URL 
 --> https://devops.tutorials24x7.com/blog/containerize-wordpress-with-nginx-php-mysql-and-phpmyadmin-using-docker-containers
+1. Also you can download latest wordpress content and paste inside the src folder.
+2. You need to update some DATABASE NAME, USERNAME , PASSWORD , IN THE  wp-config.php file.
+
