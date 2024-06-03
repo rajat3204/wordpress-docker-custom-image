@@ -3,3 +3,23 @@ Please Go through this URL
 1. Also you can download latest wordpress content and paste inside the src folder.
 2. You need to update some DATABASE NAME, USERNAME , PASSWORD , IN THE  wp-config.php file.
 
+3. Follow this
+Instead of WordPress asking for FTP credentials to install themes and plugins, we can update src/wp-config.php as shown below.
+
+....
+....
+/* Add any custom values between this line and the "stop editing" line. */
+
+define( 'FS_METHOD', 'direct' );
+define( 'UPLOADS', 'wp-content/uploads' );
+
+/* That's all, stop editing! Happy publishing. */
+....
+....
+Also, change the directory permissions as shown below:
+
+sudo chown -R www-data:www-data <path to src>/wp-content
+These changes will allow us to install themes, plugins, and upload files on the linux systems.
+
+
+
