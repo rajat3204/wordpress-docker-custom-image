@@ -1,0 +1,25 @@
+node('') {
+
+  try {
+    def BRANCH = "${branch}"
+    def ENV_FILE = "wp-content"
+    def SSHKEYPATH = "/var/jenkins_home/files/ssh/us-south-1.pem"
+    def SSHUSERNAME = "ubuntu"
+    def SSHIP = "65.2.166.63"
+    def FILEPATH = "/opt/docker/wordpress-docker-custom-image/helloworld/src"
+ 
+    
+
+    stage('Build Deploy') {
+        echo "deploying  service"
+        sh "ssh -i ${SSHKEYPATH} -o StrictHostKeyChecking=no ${SSHUSERNAME}@${SSHIP} 'cd /opt/docker/wordpress-docker-custom-image/helloworld/src/${ENV_FILE} && git pull origin ${BRANCH}'"
+     //   sh "ssh -i ${SSHKEYPATH} -o StrictHostKeyChecking=no ${SSHUSERNAME}@${SSHIP} 'sudo cp -r ${ENV_FILE}/wp-content ${FILEPATH}'"
+     //cleanWs()
+    }   
+  }
+  
+  catch(e) {
+    echo "SOME ERROR OCCURED"
+    throw e
+  }
+}
